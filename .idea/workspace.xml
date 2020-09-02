@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1371e734-b961-4ee2-9041-d507c750ab2d" name="Default Changelist" comment="" />
+    <list default="true" id="c5363123-948f-4470-ab18-978abd71659c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/LICENSE.python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/Django-3.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/conf/global_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/conf/global_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/conf/project_template/project_name/settings.py-tpl" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/conf/project_template/project_name/settings.py-tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/css/changelists.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/css/nav_sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/static/admin/css/nav_sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/templates/admin/nav_sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/admin/templates/admin/nav_sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/auth/password_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/auth/password_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/postgres/aggregates/general.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/postgres/aggregates/general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/core/cache/backends/filebased.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/core/cache/backends/filebased.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/core/files/storage.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/core/files/storage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/backends/base/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/backends/base/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/backends/mysql/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/backends/mysql/compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/backends/postgresql/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/backends/postgresql/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/backends/postgresql/operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/backends/postgresql/operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/fields/json.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/fields/json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/fields/reverse_related.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/fields/reverse_related.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/sql/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/db/models/sql/compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/middleware/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/middleware/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/middleware/security.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/middleware/security.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/utils/deprecation.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/utils/deprecation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/views/generic/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/django/views/generic/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/setuptools-40.8.0-py3.7.egg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/website/views.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1gH1J10Nu2jQ4oEcD5N7yzxaeVV" />
+  <component name="ProjectId" id="1gxOCfYyIQv8jV9E6kVcD2U0Do5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -18,14 +63,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Portfolio" type="Python.DjangoServer" factoryName="Django server">
@@ -58,12 +98,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1371e734-b961-4ee2-9041-d507c750ab2d" name="Default Changelist" comment="" />
-      <created>1597756627643</created>
+      <changelist id="c5363123-948f-4470-ab18-978abd71659c" name="Default Changelist" comment="" />
+      <created>1599052650637</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597756627643</updated>
-      <workItem from="1597756643359" duration="653000" />
+      <updated>1599052650637</updated>
+      <workItem from="1599052667175" duration="325000" />
     </task>
     <servers />
   </component>
@@ -71,21 +111,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1597992744023">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1599053026285">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597992744023" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1597992744022">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1599053026285" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1599053026284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597992744022" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1597992744022">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1599053026284" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1599053026283">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597992744022" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1597992744023">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1599053026283" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1599053026284">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597992744023" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1599053026284" />
   </component>
 </project>
