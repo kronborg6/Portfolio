@@ -22,19 +22,26 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Django Blog</a>
+          <a class="navbar-brand mr-4" href="{% url 'web-home' %}">Mikkel Kronborg</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
-              <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
+              <a class="nav-item nav-link" href="{% url 'web-home' %}">Home</a>
+              <a class="nav-item nav-link" href="{% url 'web-project' %}">Project</a>
+              <a class="nav-item nav-link" href="{% url 'web-me' %}">Om Mig</a>
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
+                {% if user.is_staff %}
+                    <a class="nav-item nav-link" href="/admin">Admin</a>
+                    {% endif %}
+              <a class="nav-item nav-link" href="{% url 'web-kontakt' %}">Kontakt</a>
+               <!--
               <a class="nav-item nav-link" href="#">Login</a>
               <a class="nav-item nav-link" href="#">Register</a>
+              -->
             </div>
           </div>
         </div>
@@ -53,7 +60,6 @@
           {% block content %}{% endblock %}
         </div>
     </main>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

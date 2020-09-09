@@ -82,3 +82,13 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+.indexh2 {
+  color: #0d91c2;
+  text-align: center;
+  font-size: 45px;
+}
+
+.indexP {
+  color: #001133;
+  font-size: 17px;
+}

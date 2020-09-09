@@ -2,8 +2,14 @@ from django.shortcuts import render
 
 def home(request):
 
-    return render(request, 'web/home.html',{'title': 'Home'})
+    return render(request, 'web/home.html', {'title': 'Home'})
 
 
-def about(request):
-    return render(request, 'web/about.html', {'title': 'About'})
+def project(request):
+    return render(request, 'web/project.html', {'title': 'Project'})
+
+def me(request):
+    return render(request, 'web/me.html', {'title': 'me'})
+
+def kontakt(request):
+    return render(request, 'web/kontakt.html', {'title': 'kontakt'})
