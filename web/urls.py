@@ -9,3 +9,4 @@ urlpatterns = [
     path('me/', views.me, name='web-me'),
     path('kontakt/', views.kontakt, name='web-kontakt'),
 ]
+
