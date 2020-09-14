@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="{% static 'web/main.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'web/Kmain.css' %}">
 
     {% if title %}
         <title>Django Blog - {{ title }}</title>
@@ -29,15 +30,15 @@
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
               <a class="nav-item nav-link" href="{% url 'web-home' %}">Home</a>
-              <a class="nav-item nav-link" href="{% url 'web-project' %}">Project</a>
               <a class="nav-item nav-link" href="{% url 'web-me' %}">Om Mig</a>
+                <a class="nav-item nav-link" href="{% url 'web-project' %}">Project</a>
+              <a class="nav-item nav-link" href="{% url 'web-kontakt' %}">Kontakt</a>
             </div>
             <!-- Navbar Right Side -->
             <div class="navbar-nav">
                 {% if user.is_staff %}
                     <a class="nav-item nav-link" href="/admin">Admin</a>
                     {% endif %}
-              <a class="nav-item nav-link" href="{% url 'web-kontakt' %}">Kontakt</a>
                <!--
               <a class="nav-item nav-link" href="#">Login</a>
               <a class="nav-item nav-link" href="#">Register</a>

@@ -18,6 +18,9 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    def get_absolute_url(self):
+        return reverse('post-detail', kwargs={'pk': self.pk})
+
 class Mail(models.Model):
     Fornavn = models.CharField(max_length=100)
     Efternavn = models.CharField(max_length=100)
@@ -26,4 +29,4 @@ class Mail(models.Model):
     date_posted = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
-        return self.Email
+        return self.Efternavn
