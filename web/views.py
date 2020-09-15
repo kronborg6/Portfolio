@@ -8,7 +8,10 @@ from .models import Post
 # TODO: Add email sender til kontakt
 
 def home(request):
-    return render(request, 'web/home.html', {'title': 'Home'})
+    context = {
+        'posts': Post.objects.all()
+    }
+    return render(request, 'web/home.html', context)
 
 def project(request):
     context = {
@@ -28,14 +31,12 @@ class PythonList(ListView):
     template_name = 'web/ppython.html'  # <app>/<model>_<viewtype>.html
     context_object_name = 'posts'
     ordering = ['-date_posted']
-    paginate_by = 4
 
 class CSharpList(ListView):
     model = Post
     template_name = 'web/pcshap.html'  # <app>/<model>_<viewtype>.html
     context_object_name = 'posts'
     ordering = ['-date_posted']
-    paginate_by = 4
 
 def me(request):
     return render(request, 'web/me.html', {'title': 'me'})
@@ -47,14 +48,7 @@ def kontakt(request):
         form = MailSender(request.POST)
         if form.is_valid():
             form.save()
-            """send_mail(
-                'Subject here',
-                'Here is the message.',
-                'mkronborg6@gmail.com',
-                ['mkronborg7@gmail.com'],
-                fail_silently=False,
-            )"""
-            messages.success(request, f'Din besked er blevet sendt')
+            messages.success(request, f'Din besked er blevet Modtaget')
             return redirect('web-home')
 
     return render(request, "web/kontakt.html", {'form': form})

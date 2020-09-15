@@ -3,7 +3,7 @@
 {% block content %}
 <div class="row">
   <div class="col-4">
-    <div class="form-actions sticky">
+    <div class="form-actions">
         <a href='{% url 'web-project' %}'><button class="btn btn-info btn-lg">All</button></a>
         <a href='{% url 'web-python' %}'><button class="btn btn-info btn-lg">Python</button></a>
         <a href='{% url 'web-c#' %}'><button class="btn btn-info btn-lg">C#</button></a>
@@ -16,6 +16,7 @@
   </div>
   <div class="col-8">
       {% for post in posts %}
+          {% if post.language == "Python" %}
             <article class="media content-section">
               <div class="media-body">
                 <div class="article-metadata">
@@ -26,7 +27,6 @@
                 <p class="article-content">{{ post.content }}</p>
               </div>
             </article>
+          {% endif %}
         {% endfor %}
-  </div>
-</div>
 {% endblock content %}

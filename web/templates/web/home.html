@@ -1,22 +1,54 @@
 {% extends "web/base.html" %}
 {% block content %}
-    <div class="text-center">
-    <h2>Test</h2>
-</div>
+    <h1 class="text-center">Kronborg</h1>
+    <div class="container">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-6">
+    </div>
+    <div class="col">
+    </div>
+  </div>
 <div class="container text-center">
   <div class="row">
-    <div class="col border border-info">
+    <div class="col">
       <h3>Programmering</h3>
-      <p>Jeg </p>
+      <p>
+          Jeg Programmer mest python jeg kan også godt Programmer i C#, har også Programmer i php, html, javascript og lidt css
+      </p>
     </div>
-    <div class="col border border-info">
+    <div class="col">
       <h3>Lidt om mig</h3>
-      <p>Jeg er</p>
+      <p>
+          jeg er 20 år jeg er igang med er blive uddanet til datatinker med speciale i pro
+          jeg kan godt finde på at bruge en wekaden på at stå på wakeboard
+          eller tag en by tur med min venner eller blive hjemme arbjede på nogle af min projecter eller spille nåde cs go med min venner
+      </p>
     </div>
-    <div class="col border border-info">
-      <h3>Projecter</h3>
-      <p>Jeg har lavet</p>
+    <div class="col">
+        <h3>Projecter</h3>
+        <p>
+            Jeg har lavet mange projecter ikke alle samme er på github men dem der gør er der et link til på min proj side
+            der er også kode til den her side også et link nerest på den her side
+        </p>
     </div>
   </div>
 </div>
+        <div class="text-center">
+      {% for post in posts %}
+          {% if post.title == "Django" %}
+            <article class="media content-section">
+              <div class="media-body">
+                <div class="article-metadata">
+                  <a class="mr-2" href="#">{{ post.language }}</a>
+                  <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+                </div>
+                <h2><a class="article-title" href="{{ post.link }}" target="_blank">{{ post.title }}</a></h2>
+                <p class="article-content">{{ post.content }}</p>
+              </div>
+            </article>
+          {% endif %}
+        {% endfor %}
+    </div>
 {% endblock content %}

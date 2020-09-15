@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5363123-948f-4470-ab18-978abd71659c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/static/web/Kmain.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/web/pcshap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/templates/web/ppython.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/static/web/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/web/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/web/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/templates/web/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/web/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/web/pcshap.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/web/pcshap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/web/ppython.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/web/ppython.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/templates/web/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/web/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599052650637</updated>
-      <workItem from="1599052667175" duration="41812000" />
+      <workItem from="1599052667175" duration="48802000" />
     </task>
     <task id="LOCAL-00001" summary="0.1.0 &#10;&#10;add web til Portfolio som skal inde holde hjemmesiden">
       <created>1599462395133</created>
@@ -180,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600010285957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0.6.1&#10;&#10;-- add project page&#10;-- add en måde at sorter">
+      <created>1600089436242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600089436244</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,29 +208,30 @@
     <MESSAGE value="0.3.0 &#10;&#10;add to mere sider" />
     <MESSAGE value="0.4.1&#10;&#10;add to database table add dem til admin side selv om det ikke er helt oppe og køre&#10;&#10;lavet en # TODO: list&#10;&#10;måske sprøge om et par dage mere" />
     <MESSAGE value="0.5.1&#10;&#10;-- Kontakt side&#10;-- desige" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.5.1&#10;&#10;-- Kontakt side&#10;-- desige" />
+    <MESSAGE value="0.6.1&#10;&#10;-- add project page&#10;-- add en måde at sorter" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.6.1&#10;&#10;-- add project page&#10;-- add en måde at sorter" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1600010285236">
+    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1600089435977">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600010285236" />
-    <state width="1398" height="131" key="GridCell.Tab.0.bottom" timestamp="1600088870663">
+    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1600089435977" />
+    <state width="1398" height="131" key="GridCell.Tab.0.bottom" timestamp="1600176291968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600088870663" />
-    <state width="1398" height="131" key="GridCell.Tab.0.center" timestamp="1600088870662">
+    <state width="1398" height="131" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600176291967" />
+    <state width="1398" height="131" key="GridCell.Tab.0.center" timestamp="1600176291965">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600088870662" />
-    <state width="1398" height="131" key="GridCell.Tab.0.left" timestamp="1600088870661">
+    <state width="1398" height="131" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600176291965" />
+    <state width="1398" height="131" key="GridCell.Tab.0.left" timestamp="1600176291964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600088870661" />
-    <state width="1398" height="131" key="GridCell.Tab.0.right" timestamp="1600088870663">
+    <state width="1398" height="131" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600176291964" />
+    <state width="1398" height="131" key="GridCell.Tab.0.right" timestamp="1600176291967">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="131" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600088870663" />
+    <state width="1398" height="131" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600176291967" />
     <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599466173778">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
